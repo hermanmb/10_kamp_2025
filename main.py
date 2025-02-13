@@ -40,6 +40,7 @@ for i, (name, score) in enumerate(sorted_scores[3:], start=4):
 st.text("")
 st.text("")
 st.text("")
+
 # Detailed Scores Table
 st.subheader("Alle resultater")
 df = pd.DataFrame.from_dict(data, orient="index")
