@@ -22,7 +22,7 @@ sorted_scores = calculate_top_scores(data)
 st.title("🏆 10-kamp 2025 🏆")
 
 # Podium Display
-st.header("")
+st.header("Pallen")
 
 if len(sorted_scores) >= 3:
     st.markdown(f"""<h2 style='text-align:center;'>🥇 {sorted_scores[0][0]} - {sorted_scores[0][1]} pts</h2>""", unsafe_allow_html=True)
