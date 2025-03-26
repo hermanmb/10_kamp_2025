@@ -14,7 +14,7 @@
     },
     "Vegard Joten Andersen": {
       "ski": 17,
-      "svøm": 0,
+      "svøm": 12,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -26,7 +26,7 @@
     },
     "Herman Mørkved Blom": {
       "ski": 15,
-      "svøm": 0,
+      "svøm": 17,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -38,7 +38,7 @@
     },
     "Jonas Tofte Røhne": {
       "ski": 14,
-      "svøm": 0,
+      "svøm": 20,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -50,7 +50,7 @@
     },
     "Sebastian Qvist": {
       "ski": 14,
-      "svøm": 0,
+      "svøm": 12,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -62,7 +62,7 @@
     },
     "Jarle Rønvik": {
       "ski": 14,
-      "svøm": 0,
+      "svøm": 11,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -74,7 +74,7 @@
     },
     "Anders Stokka": {
       "ski": 12,
-      "svøm": 0,
+      "svøm": 14,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -86,7 +86,7 @@
     },
     "Lone Næss": {
       "ski": 12,
-      "svøm": 0,
+      "svøm": 12,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -98,7 +98,7 @@
     },
     "Erik Rød": {
       "ski": 12,
-      "svøm": 0,
+      "svøm": 11,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -110,7 +110,139 @@
     },
     "Ole Jørgen Fredheim": {
       "ski": 11,
-      "svøm": 0,
+      "svøm": 14,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Leander Van de Pontseele": {
+      "ski": 0,
+      "svøm": 15,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Kasper Van de Pontseele-Wikant": {
+      "ski": 0,
+      "svøm": 15,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Mats Struksnæs": {
+      "ski": 0,
+      "svøm": 14,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Vegard Woldsengen": {
+      "ski": 0,
+      "svøm": 14,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Ingrid Holm": {
+      "ski": 0,
+      "svøm": 14,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Kevin Cruz": {
+      "ski": 0,
+      "svøm": 12,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Andreas Røyksund": {
+      "ski": 0,
+      "svøm": 12,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Kevin Kariuki": {
+      "ski": 0,
+      "svøm": 12,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Trond Østmoen": {
+      "ski": 0,
+      "svøm": 11,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Tarjei Heen": {
+      "ski": 0,
+      "svøm": 11,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "trim 2": 0,
+      "squash": 0
+    },
+    "Jon Kristian Morken": {
+      "ski": 0,
+      "svøm": 11,
       "klatring": 0,
       "trim 1": 0,
       "beer mile": 0,
@@ -123,5 +255,7 @@
 
 
 }
+
+
 
     
