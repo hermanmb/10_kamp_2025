@@ -16,6 +16,29 @@ def calculate_top_scores(data, top_n=7):
 def highlight_best_scores(val, best_scores):
     return "background-color: yellow; font-weight: bold" if val in best_scores else ""
 
+def get_podium(sorted_scores):
+    podium = {1: [], 2: [], 3: []}
+    if not sorted_scores:
+        return podium
+
+    current_place = 1
+    last_score = None
+
+    for name, score in sorted_scores:
+        if last_score is None:  # First entry
+            podium[current_place].append((name, score))
+            last_score = score
+        else:
+            if score == last_score:  # Same score → same place
+                podium[current_place].append((name, score))
+            else:
+                current_place += 1
+                if current_place > 3:
+                    break
+                podium[current_place].append((name, score))
+                last_score = score
+    return podium
+
 data = load_data()
 sorted_scores = calculate_top_scores(data)
 
@@ -23,11 +46,20 @@ st.title("🏆 10-kamp 2025 🏆")
 
 # Podium Display
 st.header("Pallen")
+podium = get_podium(sorted_scores)
 
-if len(sorted_scores) >= 3:
-    st.markdown(f"""<h2 style='text-align:center;'>🥇 {sorted_scores[0][0]} - {sorted_scores[0][1]} pts</h2>""", unsafe_allow_html=True)
-    st.markdown(f"""<h3 style='text-align:center;'>🥈 {sorted_scores[1][0]} - {sorted_scores[1][1]} pts</h3>""", unsafe_allow_html=True)
-    st.markdown(f"""<h4 style='text-align:center;'>🥉 {sorted_scores[2][0]} - {sorted_scores[2][1]} pts</h4>""", unsafe_allow_html=True)
+if podium[1]:
+    st.markdown("<h2 style='text-align:center;'>🥇 " + 
+                ", ".join([f"{n} - {s} pts" for n, s in podium[1]]) + 
+                "</h2>", unsafe_allow_html=True)
+if podium[2]:
+    st.markdown("<h3 style='text-align:center;'>🥈 " + 
+                ", ".join([f"{n} - {s} pts" for n, s in podium[2]]) + 
+                "</h3>", unsafe_allow_html=True)
+if podium[3]:
+    st.markdown("<h4 style='text-align:center;'>🥉 " + 
+                ", ".join([f"{n} - {s} pts" for n, s in podium[3]]) + 
+                "</h4>", unsafe_allow_html=True)
 st.text("")
 st.text("")
 st.text("")
