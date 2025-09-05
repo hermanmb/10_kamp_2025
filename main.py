@@ -48,7 +48,8 @@ st.title("🏆 10-kamp 2025 🏆")
 st.header("Pallen")
 podium = get_podium(sorted_scores)
 
-places_used = sum(len(podium[p]) for p in podium.values())
+places_used = sum(len(p) for p in podium.values())
+
 start_rank = places_used + 1
 
 if podium[1]:
