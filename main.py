@@ -13,6 +13,9 @@ def calculate_top_scores(data, top_n=7):
         scores[name] = sum(top_scores)
     return sorted(scores.items(), key=lambda x: x[1], reverse=True)
 
+def highlight_best_scores(val, best_scores):
+    return "background-color: yellow; font-weight: bold" if val in best_scores else ""
+
 def get_podium(sorted_scores):
     podium = {1: [], 2: [], 3: []}
     if not sorted_scores:
@@ -38,38 +41,32 @@ def get_podium(sorted_scores):
 
 data = load_data()
 sorted_scores = calculate_top_scores(data)
-podium = get_podium(sorted_scores)
 
 st.title("🏆 10-kamp 2025 🏆")
 
 # Podium Display
 st.header("Pallen")
+podium = get_podium(sorted_scores)
 
 if podium[1]:
-    st.markdown("<h2 style='text-align:center;'>🥇 " +
-                ", ".join([f"{n} - {s} pts" for n, s in podium[1]]) +
+    st.markdown("<h2 style='text-align:center;'>🥇 " + 
+                ", ".join([f"{n} - {s} pts" for n, s in podium[1]]) + 
                 "</h2>", unsafe_allow_html=True)
 if podium[2]:
-    st.markdown("<h3 style='text-align:center;'>🥈 " +
-                ", ".join([f"{n} - {s} pts" for n, s in podium[2]]) +
+    st.markdown("<h3 style='text-align:center;'>🥈 " + 
+                ", ".join([f"{n} - {s} pts" for n, s in podium[2]]) + 
                 "</h3>", unsafe_allow_html=True)
 if podium[3]:
-    st.markdown("<h4 style='text-align:center;'>🥉 " +
-                ", ".join([f"{n} - {s} pts" for n, s in podium[3]]) +
+    st.markdown("<h4 style='text-align:center;'>🥉 " + 
+                ", ".join([f"{n} - {s} pts" for n, s in podium[3]]) + 
                 "</h4>", unsafe_allow_html=True)
-
 st.text("")
 st.text("")
 st.text("")
 
 # List of other competitors
 st.subheader("Resten av deltagerne")
-
-# Count how many places are already used
-places_used = sum(len(podium[p]) for p in podium.values())
-start_rank = places_used + 1
-
-for i, (name, score) in enumerate(sorted_scores[places_used:], start=start_rank):
+for i, (name, score) in enumerate(sorted_scores[3:], start=4):
     st.write(f"{i}. {name} - {score} pts")
 
 st.text("")
