@@ -31,7 +31,7 @@
       "trim 1": 14,
       "beer mile": 0,
       "fotball": 12,
-      "sykling": 0,
+      "sykling": 14,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -43,7 +43,7 @@
       "trim 1": 0,
       "beer mile": 0,
       "fotball": 0,
-      "sykling": 0,
+      "sykling": 17,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -115,7 +115,7 @@
       "trim 1": 11,
       "beer mile": 11,
       "fotball": 11,
-      "sykling": 0,
+      "sykling": 11,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -127,7 +127,7 @@
       "trim 1": 0,
       "beer mile": 0,
       "fotball": 0,
-      "sykling": 0,
+      "sykling": 14,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -175,7 +175,7 @@
       "trim 1": 20,
       "beer mile": 15,
       "fotball": 0,
-      "sykling": 0,
+      "sykling": 14,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -187,7 +187,7 @@
       "trim 1": 0,
       "beer mile": 20,
       "fotball": 14,
-      "sykling": 0,
+      "sykling": 12,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -199,7 +199,7 @@
       "trim 1": 12,
       "beer mile": 0,
       "fotball": 0,
-      "sykling": 0,
+      "sykling": 11,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -343,7 +343,7 @@
       "trim 1": 0,
       "beer mile": 0,
       "fotball": 0,
-      "sykling": 0,
+      "sykling": 12,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -379,7 +379,7 @@
       "trim 1": 12,
       "beer mile": 11,
       "fotball": 11,
-      "sykling": 0,
+      "sykling": 12,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -451,7 +451,7 @@
       "trim 1": 0,
       "beer mile": 12,
       "fotball": 0,
-      "sykling": 0,
+      "sykling": 11,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
@@ -572,6 +572,42 @@
       "beer mile": 0,
       "fotball": 14,
       "sykling": 0,
+      "løp": 0,
+      "squash": 0,
+      "trim 2": 0
+    },
+    "Daniel Brodshaug": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 15,
+      "løp": 0,
+      "squash": 0,
+      "trim 2": 0
+    },
+    "Sondre Bergo": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 20,
+      "løp": 0,
+      "squash": 0,
+      "trim 2": 0
+    },
+    "Snorre Gjessing": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 12,
       "løp": 0,
       "squash": 0,
       "trim 2": 0
