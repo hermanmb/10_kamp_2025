@@ -48,9 +48,8 @@ st.title("🏆 10-kamp 2025 🏆")
 st.header("Pallen")
 podium = get_podium(sorted_scores)
 
-places_used = sum(len(p) for p in podium.values())
-
-start_rank = places_used + 1
+max_place_used = max([place for place, players in podium.items() if players], default=0)
+start_rank = max_place_used + 1
 
 if podium[1]:
     st.markdown("<h2 style='text-align:center;'>🥇 " + 
@@ -70,7 +69,7 @@ st.text("")
 
 # List of other competitors
 st.subheader("Resten av deltagerne")
-for i, (name, score) in enumerate(sorted_scores[start_rank:], start=start_rank):
+for i, (name, score) in enumerate(sorted_scores[sum(len(p) for p in podium.values()):], start=start_rank):
     st.write(f"{i}. {name} - {score} pts")
 
 st.text("")
