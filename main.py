@@ -23,20 +23,27 @@ def get_podium(sorted_scores):
 
     current_place = 1
     last_score = None
+    place_count = 0  # how many distinct score levels we’ve used
 
     for name, score in sorted_scores:
-        if last_score is None:  # First entry
+        if last_score is None:
             podium[current_place].append((name, score))
             last_score = score
+            place_count = 1
+        elif score == last_score:
+            podium[current_place].append((name, score))
         else:
-            if score == last_score:  # Same score → same place
-                podium[current_place].append((name, score))
-            else:
-                current_place += 1
-                if current_place > 3:
-                    break
-                podium[current_place].append((name, score))
-                last_score = score
+            place_count += 1
+            current_place = place_count
+            if current_place > 3:
+                break
+            podium[current_place].append((name, score))
+            last_score = score
+
+    # If two players share 2nd place → no 3rd place
+    if len(podium[2]) > 1:
+        podium[3] = []
+
     return podium
 
 data = load_data()
