@@ -77,7 +77,7 @@ st.text("")
 # List of other competitors
 st.subheader("Resten av deltagerne")
 for i, (name, score) in enumerate(sorted_scores[sum(len(p) for p in podium.values()):], start=start_rank):
-    st.write(f"{i}. {name} - {score} pts")
+    st.write(f"{i+1}. {name} - {score} pts")
 
 st.text("")
 st.text("")
