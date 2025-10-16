@@ -33,7 +33,7 @@
       "fotball": 12,
       "sykling": 14,
       "løp": 17,
-      "squash": 0,
+      "squash": 12,
       "trim 2": 0
     },
     "Jonas Tofte Røhne": {
@@ -81,7 +81,7 @@
       "fotball": 0,
       "sykling": 0,
       "løp": 12,
-      "squash": 0,
+      "squash": 11,
       "trim 2": 0
     },
     "Lone Næss": {
@@ -153,7 +153,7 @@
       "fotball": 20,
       "sykling": 0,
       "løp": 11,
-      "squash": 0,
+      "squash": 14,
       "trim 2": 0
     },
     "Vegard Woldsengen": {
@@ -189,7 +189,7 @@
       "fotball": 14,
       "sykling": 12,
       "løp": 14,
-      "squash": 0,
+      "squash": 12,
       "trim 2": 0
     },
     "Andreas Røyksund": {
@@ -201,7 +201,7 @@
       "fotball": 0,
       "sykling": 11,
       "løp": 12,
-      "squash": 0,
+      "squash": 14,
       "trim 2": 0
     },
     "Kevin Kariuki": {
@@ -213,7 +213,7 @@
       "fotball": 14,
       "sykling": 0,
       "løp": 14,
-      "squash": 0,
+      "squash": 12,
       "trim 2": 0
     },
     "Trond Østmoen": {
@@ -237,7 +237,7 @@
       "fotball": 12,
       "sykling": 0,
       "løp": 14,
-      "squash": 0,
+      "squash": 14,
       "trim 2": 0
     },
     "Jon Kristian Morken": {
@@ -345,7 +345,7 @@
       "fotball": 0,
       "sykling": 12,
       "løp": 0,
-      "squash": 0,
+      "squash": 20,
       "trim 2": 0
     },
     "Signe Petrohai Pedersen": {
@@ -369,7 +369,7 @@
       "fotball": 11,
       "sykling": 0,
       "løp": 11,
-      "squash": 0,
+      "squash": 11,
       "trim 2": 0
     },
     "Magnus Sæland": {
@@ -381,7 +381,7 @@
       "fotball": 11,
       "sykling": 12,
       "løp": 12,
-      "squash": 0,
+      "squash": 11,
       "trim 2": 0
     },
     "Marius Werner Henriksen": {
@@ -465,7 +465,7 @@
       "fotball": 0,
       "sykling": 0,
       "løp": 0,
-      "squash": 0,
+      "squash": 12,
       "trim 2": 0
     },
     "Hallvard Hotvedt": {
@@ -489,7 +489,7 @@
       "fotball": 17,
       "sykling": 0,
       "løp": 0,
-      "squash": 0,
+      "squash": 12,
       "trim 2": 0
     },
     "Rasmus Skarstein": {
@@ -513,7 +513,7 @@
       "fotball": 0,
       "sykling": 0,
       "løp": 0,
-      "squash": 0,
+      "squash": 12,
       "trim 2": 0
     },
     "Jonas Nordbø": {
@@ -525,7 +525,7 @@
       "fotball": 12,
       "sykling": 0,
       "løp": 0,
-      "squash": 0,
+      "squash": 12,
       "trim 2": 0
     },
     "Mathilde Gunvaldsen": {
@@ -561,7 +561,7 @@
       "fotball": 12,
       "sykling": 0,
       "løp": 14,
-      "squash": 0,
+      "squash": 11,
       "trim 2": 0
     },
     "Eirik Lorange Brandt": {
@@ -597,7 +597,7 @@
       "fotball": 0,
       "sykling": 20,
       "løp": 0,
-      "squash": 0,
+      "squash": 12,
       "trim 2": 0
     },
     "Snorre Gjessing": {
@@ -610,6 +610,78 @@
       "sykling": 12,
       "løp": 0,
       "squash": 0,
+      "trim 2": 0
+    },
+    "Håkon Olaus Kristiansen": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "squash": 12,
+      "trim 2": 0
+    },
+    "Eivind Berner Myhre": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "squash": 12,
+      "trim 2": 0
+    },
+    "Ida Næss Høvik": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "squash": 17,
+      "trim 2": 0
+    },
+    "James Neil Wilson": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "squash": 15,
+      "trim 2": 0
+    },
+    "Amund Augland": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "squash": 14,
+      "trim 2": 0
+    },
+    "Nikolaj Børner Hansen": {
+      "ski": 0,
+      "svøm": 0,
+      "klatring": 0,
+      "trim 1": 0,
+      "beer mile": 0,
+      "fotball": 0,
+      "sykling": 0,
+      "løp": 0,
+      "squash": 14,
       "trim 2": 0
     }
 
